@@ -54,9 +54,16 @@ Veuillez exécuter la commande suivante dans votre terminal pour lancer le docke
 
 ## Modifier le wordpress
 
+### Se connecter
+
+identifiant : lu-nf19
+
+mot de passe : projetNF19
+
 ## Accéder au MySQL
 
 ## Arrêter le docker
 
-Exécutez les commandes suivantes dans votre terminal pour arrêter le docker-compose.
+Exécutez la commandea suivante dans votre terminal pour arrêter le docker-compose.
 
+```docker compose down```
