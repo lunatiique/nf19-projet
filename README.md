@@ -5,6 +5,16 @@ Réalisé par Luna Schenk et Lucas Sauron.
 # Entreprise GiftCard
 # Déploiement dockers WordPress et MySQL
 
+## Ajouter ce git à votre répertoire
+
+Pour cela, il est nécessaire que vous installiez **Git** sur votre appareil, si vous ne l'avez pas vous pouvez le retrouver ici :
+
+https://github.com/git-guides/install-git
+
+Puis veuillez exécuter la commande suivante :
+
+```git clone https://github.com/lunatiique/nf19-projet```
+
 ## Installer docker sur votre appareil
 
 ### Pour Linux
@@ -26,41 +36,21 @@ Veuillez-vous rendre ici :
 https://docs.docker.com/desktop/install/mac-install/
 
 
-## S'identifier sur le docker hub
-
-*Si vous n'avez pas de compte docker hub, veuillez vous en créer un ici : https://hub.docker.com*
-
-Exécutez la commande suivante :
-
-```docker login```
-
-Veuillez ensuite entrer votre nom d'utilisateur ainsi que votre mot de passe.
-
-## Récupérer les images nécessaires 
-
-Vous devez récupérer l'image de wordpress et de mysql utilisés pour votre déploiement.
-
-Exécutez les commandes suivantes dans votre terminal.
-
-```docker pull lunatique/wordpress-nf19```
-
-```docker pull lunatique/mysql-nf19```
-
 ## Lancer le docker
 
-Veuillez exécuter la commande suivante dans votre terminal pour lancer le docker-compose.
+Dans votre terminal, veuillez vous placer dans le dossier où se trouve le fichier *docker-compose.yml*.
+
+Puis veuillez exécuter la commande suivante pour lancer le docker-compose.
 
 ```docker compose up -d```
 
 ## Modifier le wordpress
 
-### Se connecter
+### Les identifiants pour se connecter au WordPress sont les suivants
 
 identifiant : lu-nf19
 
 mot de passe : projetNF19
-
-## Accéder au MySQL
 
 ## Arrêter le docker
 
