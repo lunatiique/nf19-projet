@@ -1,1 +1,45 @@
-# nf19-projet
+# Projet NF19 - A22
+
+Réalisé par Luna Schenk et Lucas Sauron.
+
+# Entreprise GiftCard - Déploiement dockers WordPress et MySQL
+
+## Installer docker sur votre appareil
+
+### Pour Linux
+
+Veuillez-vous rendre ici :
+
+https://docs.docker.com/desktop/install/linux-install/
+
+### Pour Windows
+
+Veuillez-vous rendre ici :
+
+https://docs.docker.com/desktop/install/windows-install/
+
+### Pour MacOS
+
+Veuillez-vous rendre ici :
+
+https://docs.docker.com/desktop/install/mac-install/
+
+
+## S'identifier sur le docker hub
+
+*Si vous n'avez pas de compte docker hub, veuillez vous en créer un ici : https://hub.docker.com*
+
+Exécutez la commande suivante :
+```docker login```
+Veuillez ensuite entrer votre nom d'utilisateur ainsi que votre mot de passe.
+
+## Récupérer les images nécessaires 
+
+Vous devez récupérer l'image de wordpress et de mysql utilisés pour votre déploiement.
+
+Exécutez les commandes suivantes dans votre terminal.
+```docker pull lunatique/wordpress-nf19```
+```docker pull lunatique/mysql-nf19```
+
+## Lancer le docker
+```docker compose up -d```

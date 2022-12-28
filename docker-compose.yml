@@ -2,7 +2,7 @@ version: '3'
 
 services:
    db:
-     image: test-mysql
+     image: lunatique/mysql-nf19
      volumes:
        - db_data:/var/lib/mysql
      restart: always
@@ -15,7 +15,7 @@ services:
    wordpress:
      depends_on:
        - db
-     image: test-wordpress
+     image: lunatique/wordpress-nf19
      ports:
        - "8000:80"
      restart: always
