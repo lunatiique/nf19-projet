@@ -1,27 +1,30 @@
-version: '3'
+version: '3.3'
 
 services:
    db:
-     image: lunatique/mysql-nf19
+     image: mysql:5.7
      volumes:
-       - db_data:/var/lib/mysql
+       - ./donnees:/var/lib/mysql
      restart: always
      environment:
-       MYSQL_ROOT_PASSWORD: nf19
-       MYSQL_DATABASE: wordpress
-       MYSQL_USER: wordpress
-       MYSQL_PASSWORD: wordpress
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress-nf19
+       MYSQL_USER: lu-nf19
+       MYSQL_PASSWORD: projetNF19
 
    wordpress:
      depends_on:
        - db
-     image: lunatique/wordpress-nf19
+     image: wordpress:latest
+     volumes:
+      - ./site:/var/www/html/ 
      ports:
        - "8000:80"
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306
-       WORDPRESS_DB_USER: wordpress
-       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_USER: lu-nf19
+       WORDPRESS_DB_PASSWORD: projetNF19
+       WORDPRESS_DB_NAME: wordpress-nf19
 volumes:
-    db_data:
+    db_data: {}
