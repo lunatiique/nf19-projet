@@ -52,6 +52,22 @@ identifiant : lu-nf19
 
 mot de passe : projetNF19
 
+## Pour assurer la persistance des données
+
+Lorsqu'il est pertinent que les autres membres puissent voir vos modifications, merci de bien penser à mettre les versions modifiées des volumes du docker stockés dans les dossiers suivants :
+
+- *donnees*
+
+- *site*
+
+Vous pouvez faire ça avec les commandes suivantes dans votre terminal lorsque vous êtes placés dans le dossier du projet :
+
+```git add donnees site```
+
+```git commit -m '[message décrivant modifications apportées]'```
+
+```git push```
+
 ## Arrêter le docker
 
 Exécutez la commandea suivante dans votre terminal pour arrêter le docker-compose.
