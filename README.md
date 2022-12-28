@@ -2,7 +2,8 @@
 
 Réalisé par Luna Schenk et Lucas Sauron.
 
-# Entreprise GiftCard - Déploiement dockers WordPress et MySQL
+# Entreprise GiftCard
+# Déploiement dockers WordPress et MySQL
 
 ## Installer docker sur votre appareil
 
