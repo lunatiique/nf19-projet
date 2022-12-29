@@ -54,7 +54,7 @@ mot de passe : projetNF19
 
 ### Accéder au Wordpress
 
-Veuillez vous rendre à l'adresse  *localhost:80*  sur votre navigateur internet préféré pour accéder au wordpress.
+Veuillez vous rendre à l'adresse  *localhost:8000*  sur votre navigateur internet préféré pour accéder au wordpress.
 
 ## Pour assurer la persistance des données
 
