@@ -52,6 +52,10 @@ identifiant : lu-nf19
 
 mot de passe : projetNF19
 
+### Accéder au Wordpress
+
+Veuillez vous rendre à l'adresse : *localhost:80* sur votre navigateur internet préféré pour accéder au wordpress.
+
 ## Pour assurer la persistance des données
 
 Lorsqu'il est pertinent que les autres membres puissent voir vos modifications, merci de bien penser à mettre les versions modifiées des volumes du docker stockés dans les dossiers suivants :
@@ -70,6 +74,6 @@ Vous pouvez faire ça avec les commandes suivantes dans votre terminal lorsque v
 
 ## Arrêter le docker
 
-Exécutez la commandea suivante dans votre terminal pour arrêter le docker-compose.
+Exécutez la commande suivante dans votre terminal pour arrêter le docker-compose.
 
-```docker compose down```
+```sudo docker compose down```
