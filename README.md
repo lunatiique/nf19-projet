@@ -42,7 +42,7 @@ Dans votre terminal, veuillez vous placer dans le dossier où se trouve le fichi
 
 Puis veuillez exécuter la commande suivante pour lancer le docker-compose.
 
-```docker compose up -d```
+```sudo docker compose up -d```
 
 ## Modifier le wordpress
 
