@@ -44,17 +44,23 @@ Puis veuillez exécuter la commande suivante pour lancer le docker-compose.
 
 ```sudo docker compose up -d```
 
-## Modifier le wordpress
+## Accéder au wordpress
 
-### Les identifiants pour se connecter au WordPress sont les suivants
+### Visiter le Wordpress
+
+Veuillez vous rendre à l'adresse  *localhost:8000*  sur votre navigateur internet préféré pour accéder et visiter le wordpress.
+
+### Modifier le WordPress
+
+Voici les identifiants de connexion du compte pour modifier le WordPress :
 
 identifiant : lu-nf19
 
 mot de passe : projetNF19
 
-### Accéder au Wordpress
+Veuillez-vous rendre à l'adresse suivante pour accéder à la personnalisation du Wordpress :
 
-Veuillez vous rendre à l'adresse  *localhost:8000*  sur votre navigateur internet préféré pour accéder au wordpress.
+http://localhost:8000/wp-admin/
 
 ## Pour assurer la persistance des données
 
