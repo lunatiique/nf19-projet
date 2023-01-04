@@ -42,7 +42,7 @@ Dans votre terminal, veuillez vous placer dans le dossier où se trouve le fichi
 
 Puis veuillez exécuter la commande suivante pour lancer le docker-compose.
 
-```sudo docker compose up -d```
+```[sudo] docker compose up -d```
 
 ## Accéder au wordpress
 
@@ -82,4 +82,4 @@ Vous pouvez faire ça avec les commandes suivantes dans votre terminal lorsque v
 
 Exécutez la commande suivante dans votre terminal pour arrêter le docker-compose.
 
-```sudo docker compose down```
+```[sudo] docker compose down```
